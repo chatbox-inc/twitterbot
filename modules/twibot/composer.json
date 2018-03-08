@@ -1,0 +1,27 @@
+{
+    "name": "chatbox-inc/twibot",
+    "authors": [
+        {
+            "name": "t.goto",
+            "email": "t.goto@chatbox-inc.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Chatbox\\Twibot\\": "./src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "\\Chatbox\\Twibot\\TwibotServiceProvider"
+            ]
+        }
+    }
+
+}
